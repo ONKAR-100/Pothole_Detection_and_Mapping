@@ -1,0 +1,43 @@
+# PotholeWatch — Ignore sensitive files
+
+# Environment variables
+backend/.env
+frontend/.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Node / npm
+node_modules/
+frontend/dist/
+frontend/.cache/
+
+# Data (temp files)
+backend/data/uploads/*
+backend/data/results/*
+!backend/data/uploads/.gitkeep
+!backend/data/results/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# IDE
+.vscode/settings.json
+.idea/
+*.code-workspace
+
+# Logs
+*.log
